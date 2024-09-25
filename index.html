@@ -6,24 +6,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>bubble game</title>
 </head>
-<body class="w-full h-full">
-    <section class="w-8/12 h-[800px] mx-auto bg-teal-100  rounded-xl overflow-hidden lg:mt-12">
-            <div class="w-full h-24 bg-sky-600 overflow-hidden">
-            <div class="flex justify-between items-center w-5/12 mx-auto mt-8">
-                <div class="">
-                    <h1>Target</h1>
-                    <p></p>
+<body>
+    <section class="lg:w-8/12 h-[800px] bg-orange-100 lg:mx-auto rounded-xl lg:overflow-hidden lg:mt-12">
+            <div class="w-full h-24 bg-sky-600 lg:overflow-hidden">
+            <div class=" flex justify-between items-center w-5/12 mx-auto ">
+                <div class="text-center">
+                    <h1 class="text-xl font-bold">Target</h1>
+                    <p id="random-digit" class="bg-white p-2 rounded text-xl font-bold">2</p>
                 </div>
-                <div>
-                    <h1>Target</h1>
-                    <p></p>
+                <div class="text-center">
+                    <h1 class="text-xl font-bold">Timer</h1>
+                    <p id="timer"  class="bg-white p-2 rounded text-xl font-bold">5</p>
                 </div>
-                <div>
-                    <h1>Target</h1>
-                    <p></p>
+                <div class="text-center">
+                    <h1 class="text-xl font-bold">score</h1>
+                    <p id="score" class="bg-white p-2 rounded text-xl font-bold">0</p>
                 </div>
             </div>
             </div>
+            <section id="bubble" class=" overflow-hidden lg:w-full lg:h-full flex justify-center items-center flex-wrap">
+            </section>
+               
     </section>
     
 
